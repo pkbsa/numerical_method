@@ -1,3 +1,4 @@
+#A program that can evaluate the value of natural log of 11025 using Taylor Series expansion method.  Given that you can find the value of e by setting e = limit (1+(1/n))^n as n approaches infinity.   Stop the iteration of the program using stopping criterion.  Test your result with a calculator.  (Hint: you cannot apply natural log (1+x) formula directly since the formula requires |x| < 1 - refer to the radius of convergence topic I mentioned in class.  Instead, you can split the number 11025 into two numbers a and b where a * b = 11025 and make sure a is exp(k) and |b| < 1.  Then apply basic log property: log(a * b) = log(a) + log(b) and log(exp(k)) = k
 def StoppingCriterion(n,oldn,input_sign) :
     es = 0.5 * pow(10,2-input_sign)
     ea = abs((n - oldn)/n) * 100
