@@ -1,3 +1,4 @@
+#Find the n-term approximation of a function (T_n(x)) of sin(x) where n = 2, 4, 6, 8, 10. 
 import numpy as np
 import matplotlib.pyplot as plt
 
