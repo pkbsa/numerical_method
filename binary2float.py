@@ -1,3 +1,4 @@
+#convert a 32-bit binary string in IEEE-754 format into a decimal floating point number (base-10) and test with the floating point number (base-10) 58.5625
 #Calculate Base2-Binary To Decimal 
 def BinaryToDecimal(n) :
     decimal = 0
