@@ -1,3 +1,4 @@
+#2. convert a floating point number (base-10) into IEEE-754 and test with the floating point number (base-10) 58.5625.
 #Siranut A. 6388117
 import math
 
