@@ -1,3 +1,4 @@
+#A program that can take a square root of a number using Taylor Series expansion method.   Stop the iteration of the program using stopping criterion.  Test with the square root of the number 58.25. 
 def Find(x) :
     i = 0
     while i < x :
