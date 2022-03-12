@@ -1,3 +1,5 @@
+//take a square-root of a number n using the heron's method and digit adding method taught in class : test with the square root of 19 (n = 19).  Use stopping criterion to stop your program.
+
 def FirstCurrentValue(n) :
     n = int(n)
     for i in range(n) :
